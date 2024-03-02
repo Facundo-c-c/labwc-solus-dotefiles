@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+  This is a very simple config file with many options missing. For a complete
+  set of options with comments, see docs/rc.xml.all
+-->
+<labwc_config>
+  <theme>
+    <name>gruvbox-material-dark-blocks</name>
+    <cornerRadius>10</cornerRadius>
+    <font name="JetBrainsMono" size="11"/>
+  </theme>
+  <keyboard>
+    <default/>
+    <!-- Use a different terminal emulator -->
+    <keybind key="W-Return">
+      <action name="Execute" command="kitty"/>
+    </keybind>
+    <!--
+      Remove a previously defined keybind
+      A shorter alternative is <keybind key="W-F4" />
+    -->
+    <keybind key="W-Q">
+      <action name="Execute" command="grim"/>
+    </keybind>
+  </keyboard>
+  <mouse>
+    <default/>
+    <!-- Show a custom menu on desktop right click -->
+    <context name="root">
+      <mousebind button="Right" action="Press">
+        <action name="ShowMenu" menu="some-custom-menu"/>
+      </mousebind>
+    </context>
+  </mouse>
+  <libinput>
+    <device>
+      <naturalScroll>no</naturalScroll>
+    </device>
+  </libinput>
+</labwc_config>

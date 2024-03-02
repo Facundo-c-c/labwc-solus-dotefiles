@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu>
+<!-- Note: for localization support of menu items "client-menu" has to be removed here -->
+<menu id="client-menu">
+  <item label="Minimize">
+    <action name="Iconify" />
+  </item>
+  <item label="Maximize">
+    <action name="ToggleMaximize" />
+  </item>
+  <item label="Fullscreen">
+    <action name="ToggleFullscreen" />
+  </item>
+  <item label="Roll up/down">
+    <action name="ToggleShade" />
+  </item>
+  <item label="Decorations">
+    <action name="ToggleDecorations" />
+  </item>
+  <item label="Always on Top">
+    <action name="ToggleAlwaysOnTop" />
+  </item>
+  <!--
+    Any menu with the id "workspaces" will be hidden
+    if there is only a single workspace available.
+  -->
+  <menu id="workspaces" label="Workspace">
+    <item label="Move left">
+      <action name="SendToDesktop" to="left" />
+    </item>
+    <item label="Move right">
+      <action name="SendToDesktop" to="right" />
+    </item>
+    <separator />
+    <item label="Always on Visible Workspace">
+      <action name="ToggleOmnipresent" />
+    </item>
+  </menu>
+  <item label="Close">
+    <action name="Close" />
+  </item>
+</menu>
+
+<menu id="root-menu">
+</menu>
+
+<menu id="some-custom-menu">
+<menu id="custom-apps" label="Apps">
+  <item label="󰈹   Firefox"><action name="Execute" command="firefox" /></item>
+  <item label="   Terminal"><action name="Execute" command="kitty" /></item>
+  <item label="   Files"><action name="Execute" command="nemo" /></item>
+  <separator />
+  <item label="󰙯   Discord"><action name="Execute" command="discord" /></item>
+  <item label="󰓓   Steam"><action name="Execute" command="steam" /></item>
+  <separator />
+  <item	label="󰨞   code"><action name="Execute" command="code-oss" /></item>
+</menu>
+<separator />
+<menu id="system-apps" label="system">
+<item label="󱠓   Theme"><action name="Execute" command="labwc-tweaks" /></item>
+<item label="󰓃   Sound"><action name="Execute" command="pavucontrol" /></item>
+<item label="   Wifi"><action name="Execute" command="nm-connection-editor" /></item>
+</menu>
+<separator />
+<menu id="power-menu" label="Power" >
+  <item label="   Reboot">
+    <action name="Execute" command="systemctl -i reboot" />
+  </item>
+   <item label="   Poweroff">
+    <action name="Execute" command="systemctl -i poweroff" />
+  </item>
+    <item label="󰗼   Exit">
+    <action name="Exit" />
+</item>
+</menu>
+   <separator />
+  <item label="   Reconfigure">
+    <action name="Reconfigure" />
+  </item>
+</menu>
+</openbox_menu>

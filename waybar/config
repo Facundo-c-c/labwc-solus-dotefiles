@@ -1,0 +1,80 @@
+{
+    "position": "bottom",
+    "height": 40,
+    "modules-left": ["custom/logo"],
+    "modules-center": ["wlr/taskbar"],
+    "modules-right": ["tray","custom/separator","network","custom/separator","pulseaudio","custom/separator","clock"],
+
+ // modules
+    "sway/mode": {
+      "format": "{}",
+      "max-length": 40
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    },
+
+    "tray": {
+        "icon-size": 17,
+        "spacing":3,
+    },
+
+    "pulseaudio": {
+       "scroll-step": 5, 
+        "format":"{icon}   {volume}%",
+        "format-icons": {
+        "default": ["","","",""]
+      },
+      "on-click":"pavucontrol"
+    },
+
+    "network": {
+	"interface": "wlp1s0",
+	"format": "{ifname}",
+	"format-wifi":"   {essid} ",
+	"format-ethernet": "{ifname} ",
+	"format-disconnected":"󰖪 ",
+	"format-disconnected":"󰖪 ",
+	"tooltip-format": "{ifname}",
+	"tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+	"tooltip-format-ethernet": "{ifname} ",
+	"tooltip-format-disconnected": "Disconnected",
+	"max-length": 60,
+    "on-click":"nm-connection-editor",
+    },
+
+    "custom/separator": {
+        "format": "|",
+        "interval": "once",
+        "tooltip": false
+   },
+
+   "custom/logo": {
+    "format": "  ",
+    "interval": "once",
+    "tooltip": false,
+    "on-click":"swaylock -f -i Imágenes/wallpaper/wallhaven-qzvpjq.jpg",
+},
+   
+
+    "wlr/taskbar": {
+	"format": "{icon}",
+	"icon-size": 25,
+	"icon-theme": "Reversal-brown-dark",
+	"tooltip-format": "{title}",
+	"on-click": "minimize-raise",
+	"on-click-middle": "close",
+	"ignore-list": [
+	    "waybar"
+	],
+	"app_ids-mapping": {
+		"firefoxdeveloperedition": "firefox-developer-edition"
+	},
+	"rewrite": {
+		"Firefox Web Browser": "Firefox",
+		"Foot Server": "Terminal"
+	},
+},
+},

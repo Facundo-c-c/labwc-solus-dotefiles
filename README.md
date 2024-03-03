@@ -11,6 +11,12 @@ clone and run the script:
   
   ⚠️ The script just work on solus ⚠️
 
+<h2>Checklist</h2>
+
+- [ ] add rofi menu
+- [ ] add screenlocker
+- [ ] public access to labwc on solus
+
 <h2>Credits</h2>
 
 [Labwc theme](https://github.com/nathanielevan/gruvbox-material-openbox)

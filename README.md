@@ -24,3 +24,5 @@ clone and run the script:
 [Icons](https://www.gnome-look.org/p/1340791)
 
 [Recomend gtk theme](https://www.pling.com/p/1681313/)
+
+[Wallpaper](https://wallhaven.cc/w/qzvpjq)

@@ -9,13 +9,14 @@ clone and run the script:
 
     git clone https://github.com/Facundo-c-c/labwc-solus-dotefiles.git && cd labwc-solus-dotefiles && sh install.sh
   
-  ⚠️ The script just work on solus ⚠️
+  ⚠️  The script is made for solus  ⚠️
 
 <h2>Checklist</h2>
 
 - [ ] add rofi menu
 - [ ] add screenlocker
-- [ ] public access to labwc on solus
+- [ ] add notifications
+- [ ] public access to labwc on solus 
 
 <h2>Credits</h2>
 

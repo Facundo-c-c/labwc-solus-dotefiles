@@ -13,7 +13,7 @@ clone and run the script:
 
 <h2>Checklist</h2>
 
-- [ ] add rofi menu
+- [x] add rofi menu
 - [ ] add screenlocker
 - [ ] add notifications
 - [ ] public access to labwc on solus 

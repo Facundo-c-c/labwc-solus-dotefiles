@@ -1,6 +1,7 @@
 <h1>Solus Labwc dotefiles</h1>
 
 ![20240301_00h29m25s_grim](https://github.com/Facundo-c-c/labwc-solus-dotefiles/assets/121110001/9e62a8fe-810a-45aa-9648-461b26d51f2e)
+![20240305_15h17m25s_grim](https://github.com/Facundo-c-c/labwc-solus-dotefiles/assets/121110001/7a340ce5-50c1-4119-84ee-ed225f719ab6)
 
 
 <h2>Installation</h2>

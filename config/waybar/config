@@ -55,7 +55,7 @@
     "format": "  ",
     "interval": "once",
     "tooltip": false,
-    "on-click":"swaylock -f -i Imágenes/wallpaper/wallhaven-qzvpjq.jpg",
+    "on-click":"rofi -show drun",
 },
    
 

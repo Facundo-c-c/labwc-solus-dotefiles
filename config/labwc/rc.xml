@@ -19,8 +19,8 @@
       Remove a previously defined keybind
       A shorter alternative is <keybind key="W-F4" />
     -->
-    <keybind key="W-Q">
-      <action name="Execute" command="grim"/>
+    <keybind key="W-D">
+      <action name="Execute" command="rofi -show drun"/>
     </keybind>
   </keyboard>
   <mouse>

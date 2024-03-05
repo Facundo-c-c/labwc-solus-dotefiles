@@ -15,7 +15,6 @@ clone and run the script:
 
 - [x] add rofi menu
 - [ ] add screenlocker
-- [ ] add notifications
 - [ ] public access to labwc on solus 
 
 <h2>Credits</h2>

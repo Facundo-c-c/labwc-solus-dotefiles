@@ -1,7 +1,9 @@
 <h1>Solus Labwc dotefiles</h1>
 
-![20240301_00h29m25s_grim](https://github.com/Facundo-c-c/labwc-solus-dotefiles/assets/121110001/9e62a8fe-810a-45aa-9648-461b26d51f2e)
-![20240305_15h17m25s_grim](https://github.com/Facundo-c-c/labwc-solus-dotefiles/assets/121110001/7a340ce5-50c1-4119-84ee-ed225f719ab6)
+
+![20240309_14h47m21s_grim](https://github.com/Facundo-c-c/labwc-solus-dotefiles/assets/121110001/642ae263-d704-4adb-a108-fbd6ab06383a)
+![20240309_14h51m09s_grim](https://github.com/Facundo-c-c/labwc-solus-dotefiles/assets/121110001/876e08c5-cfd3-4a0a-86d9-2eb084eb8456)
+
 
 
 <h2>Installation</h2>

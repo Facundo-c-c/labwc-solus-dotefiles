@@ -3,7 +3,7 @@
     "height": 40,
     "modules-left": ["custom/logo"],
     "modules-center": ["wlr/taskbar"],
-    "modules-right": ["tray","custom/separator","network","custom/separator","pulseaudio","custom/separator","clock"],
+    "modules-right": ["tray","network","pulseaudio","clock"],
 
  // modules
     "sway/mode": {
@@ -12,7 +12,7 @@
     },
 
     "clock": {
-        "format": "{:%H:%M}",
+        "format": " {:%H:%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     },
 
@@ -45,20 +45,12 @@
     "on-click":"nm-connection-editor",
     },
 
-    "custom/separator": {
-        "format": "|",
-        "interval": "once",
-        "tooltip": false
-   },
-
    "custom/logo": {
     "format": "  ",
     "interval": "once",
     "tooltip": false,
     "on-click":"rofi -show drun",
 },
-   
-
     "wlr/taskbar": {
 	"format": "{icon}",
 	"icon-size": 25,

@@ -15,7 +15,7 @@ swaybg -i ~/Imágenes/wallpaper/wallhaven-qzvpjq.jpg -m fill &
 #kanshi >/dev/null 2>&1 &
 
 # Launch a panel such as yambar or waybar.
-waybar >/dev/null 2>&1 
+waybar >/dev/null 2>&1 & 
 
 # Enable notifications. Typically GNOME/KDE application notifications go
 # through the org.freedesktop.Notifications D-Bus API and require a client such
@@ -29,8 +29,8 @@ waybar >/dev/null 2>&1
 # `wlr-randr --output <whatever> --off` because this re-arranges views
 # (since a837fef). Instead use a wlr-output-power-management client such as
 # https://git.sr.ht/~leon_plickat/wlopm
-#swayidle -w \
-#	timeout 5 'swaylock -f -i Imágenes/wallpaper/wallhaven-qzvpjq.jpg' \
-#	timeout 600 'wlopm --off \*' \
-#	resume 'wlopm --on \*' \
-#	before-sleep 'swaylock -f -i Imágenes/wallpaper/wallhaven-qzvpjq.jpg' >/dev/null 2>
+swayidle -w \
+    timeout 1200 'swaylock -f -i ~/Imágenes/wallpaper/wallhaven-qzvpjq.jpg'\
+    timeout 1200 'wlopm --off \*' \
+    resume 'wlopm --on \*' \
+    before-sleep 'swaylock -f -i ~/Imágenes/wallpaper/wallhaven-qzvpjq.jpg'>/dev/null 2>&1 &

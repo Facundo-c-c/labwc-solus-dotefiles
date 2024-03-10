@@ -17,7 +17,7 @@ clone and run the script:
 <h2>Checklist</h2>
 
 - [x] add rofi menu
-- [ ] add screenlocker
+- [x] add screenlocker
 - [x] public access to labwc on solus 
 
 <h2>Credits</h2>

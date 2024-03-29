@@ -1,7 +1,7 @@
 <h1>Solus Labwc dotefiles</h1>
 
 
-![20240309_14h47m21s_grim](https://github.com/Facundo-c-c/labwc-solus-dotefiles/assets/121110001/642ae263-d704-4adb-a108-fbd6ab06383a)
+
 ![20240309_14h51m09s_grim](https://github.com/Facundo-c-c/labwc-solus-dotefiles/assets/121110001/876e08c5-cfd3-4a0a-86d9-2eb084eb8456)
 
 
@@ -28,4 +28,4 @@ clone and run the script:
 
 [Recomend gtk theme](https://www.pling.com/p/1681313/)
 
-[Wallpaper](https://wallhaven.cc/w/qzvpjq)
+[Caway](https://github.com/PROxZIMA/caway)

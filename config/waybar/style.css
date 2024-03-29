@@ -10,15 +10,18 @@ window#waybar{
   background-color: #1D2021;
 }
 
+#custom-logo,
 #network,
 #pulseaudio,
 #tray,
 #clock{
   margin: 3px;
   padding: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   font-size: 12px;
   background-color: #303233;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 #custom-logo{
@@ -27,4 +30,28 @@ window#waybar{
  
 #clock{
   margin-right: 0px; 
+}
+#custom-music.Playing {
+    background: #303233;
+    animation: gradient_f 9s cubic-bezier(.72, .39, .21, 1) infinite;
+    font-weight: bold;
+    color: ghostwhite;
+    border-radius: 8px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 12px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#custom-music.Paused,
+#custom-music.Stopped {
+    background: #303233;
+    margin: 3px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 8px;
+    color: ghostwhite;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }

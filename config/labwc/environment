@@ -26,7 +26,7 @@
 ## for those on non-rolling distributions.
 ##
 
-# MOZ_ENABLE_WAYLAND=1
+ MOZ_ENABLE_WAYLAND=1
 
 ##
 ## Set cursor theme and size. Find system icons themes with:
@@ -39,7 +39,7 @@
 ## are experiencing issues with disappearing cursors, this might fix it.
 ##
 
-# WLR_NO_HARDWARE_CURSORS=1
+ WLR_NO_HARDWARE_CURSORS=1
 
 ##
 ## In order for labwc to work out of the box, the environment variable below
@@ -61,7 +61,7 @@
 ## then uncomment and adjust.
 ##
 
-# XDG_CURRENT_DESKTOP=wlroots
+ XDG_CURRENT_DESKTOP=wlroots
 
 XCURSOR_THEME=Future-black-cursors
 XCURSOR_SIZE=24

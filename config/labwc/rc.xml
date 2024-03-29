@@ -6,7 +6,7 @@
 <labwc_config>
   <theme>
     <name>gruvbox-material-dark-blocks</name>
-    <cornerRadius>10</cornerRadius>
+    <cornerRadius>0</cornerRadius>
     <font name="JetBrainsMono" size="11"/>
   </theme>
   <keyboard>
@@ -20,7 +20,10 @@
       A shorter alternative is <keybind key="W-F4" />
     -->
     <keybind key="W-D">
-      <action name="Execute" command="rofi -show drun"/>
+      <action name="Execute" command="wofi --show drun"/>
+    </keybind>
+        <keybind key="W-Q">
+      <action name="Execute" command="grim"/>
     </keybind>
   </keyboard>
   <mouse>

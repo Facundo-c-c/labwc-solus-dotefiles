@@ -1,6 +1,6 @@
 # Example autostart file
 
-swaybg -i ~/Imágenes/wallpaper/wallhaven-qzvpjq.jpg -m fill &   
+swaybg -i ~/Imágenes/wallpaper/bird.png -m fill &   
 
 # Set background color.
 #swaybg -c '#113344' >/dev/null 2>&1 &
@@ -30,7 +30,7 @@ waybar >/dev/null 2>&1 &
 # (since a837fef). Instead use a wlr-output-power-management client such as
 # https://git.sr.ht/~leon_plickat/wlopm
 swayidle -w \
-    timeout 1200 'swaylock -f -i ~/Imágenes/wallpaper/wallhaven-qzvpjq.jpg'\
+    timeout 1200 'swaylock -f -i ~/Imágenes/wallpaper/bird.png'\
     timeout 1200 'wlopm --off \*' \
     resume 'wlopm --on \*' \
-    before-sleep 'swaylock -f -i ~/Imágenes/wallpaper/wallhaven-qzvpjq.jpg'>/dev/null 2>&1 &
+    before-sleep 'swaylock -f -i ~/Imágenes/wallpaper/bird.png'>/dev/null 2>&1 &

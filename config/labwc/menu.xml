@@ -54,7 +54,8 @@
   <item label="󰙯   Discord"><action name="Execute" command="discord" /></item>
   <item label="   Matrix"><action name="Execute" command="element-desktop" /></item>
   <separator />
-  <item label="󰓓   Steam"><action name="Execute" command="steam" /></item>
+  <item label="󰓓   Steam"><action name="Execute" command="flatpak run com.valvesoftware.Steam  
+" /></item>
   <separator />
   <item	label="󰨞   code"><action name="Execute" command="code-oss" /></item>
 </menu>
@@ -68,7 +69,7 @@
 <menu id="power-menu" label="Power" >
   <item label="   Reboot">
     <action name="Execute" command="systemctl -i reboot" />
-  </item>
+     </item>
    <item label="   Poweroff">
     <action name="Execute" command="systemctl -i poweroff" />
   </item>

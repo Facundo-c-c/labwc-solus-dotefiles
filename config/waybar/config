@@ -1,15 +1,9 @@
 {
     "position": "bottom",
     "height": 40,
-    "modules-left": ["custom/logo"],
+    "modules-left": ["custom/logo","custom/music"],
     "modules-center": ["wlr/taskbar"],
     "modules-right": ["tray","network","pulseaudio","clock"],
-
- // modules
-    "sway/mode": {
-      "format": "{}",
-      "max-length": 40
-    },
 
     "clock": {
         "format": " {:%H:%M}",
@@ -46,10 +40,10 @@
     },
 
    "custom/logo": {
-    "format": "  ",
+    "format": " ",
     "interval": "once",
     "tooltip": false,
-    "on-click":"rofi -show drun",
+    "on-click":"wofi --show drun",
 },
     "wlr/taskbar": {
 	"format": "{icon}",
@@ -69,4 +63,18 @@
 		"Foot Server": "Terminal"
 	},
 },
+"custom/music": {
+    "format": "{icon}{}",
+    "format-icons": {
+        // "Playing": " ", // Uncomment if not using caway
+        "Paused": " ",
+        "Stopped": "&#x202d;ﭥ " // This stop symbol is RTL. So &#x202d; is left-to-right override.
+    },
+    "escape": true,
+    "tooltip": true,
+    "exec": ".config/waybar/module/caway/caway -f 60 -b 10",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "max-length": 40
+}
 },

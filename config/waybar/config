@@ -72,7 +72,7 @@
     },
     "escape": true,
     "tooltip": true,
-    "exec": ".config/waybar/module/caway/caway -f 60 -b 10",
+    "exec": ".config/waybar/module/caway/caway -e",
     "return-type": "json",
     "on-click": "playerctl play-pause",
     "max-length": 40

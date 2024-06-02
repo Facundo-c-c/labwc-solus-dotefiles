@@ -31,3 +31,5 @@ clone and run the script:
 [Recomend gtk theme](https://www.pling.com/p/1681313/)
 
 [Caway](https://github.com/PROxZIMA/caway)
+
+[Wallpaper](https://gruvbox-wallpapers.pages.dev/wallpapers/light/Knights.png)

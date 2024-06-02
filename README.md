@@ -1,7 +1,9 @@
 <h1>Solus Labwc dotefiles</h1>
 
+![20240602_19h22m58s_grim](https://github.com/Facundo-c-c/labwc-solus-dotefiles/assets/121110001/e6713b9c-2c75-4e0f-a9b5-2cc4d1a579f9)
 
-![20240329_13h31m48s_grim](https://github.com/Facundo-c-c/labwc-solus-dotefiles/assets/121110001/7f8f2c2b-c784-4a54-aa57-1d44ccdfeaed)
+
+![20240602_19h30m39s_grim](https://github.com/Facundo-c-c/labwc-solus-dotefiles/assets/121110001/633a0d54-1ece-4bf3-8373-8026da21937f)
 
 
 
@@ -17,7 +19,8 @@ clone and run the script:
 
 - [x] add rofi menu
 - [x] add screenlocker
-- [x] public access to labwc on solus 
+- [x] public access to labwc on solus
+- [ ] public access to wlogout on solus
 
 <h2>Credits</h2>
 

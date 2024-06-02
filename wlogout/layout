@@ -1,0 +1,20 @@
+{
+    "label" : "lock",
+    "action" : "swaylock -f -i ~/Imágenes/wallpaper/Knights_blur.png",
+    "text" : "",
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "",
+}
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend",
+    "text" : "",
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "",
+}

@@ -7,7 +7,9 @@
   <theme>
     <name>gruvbox-material-dark-blocks</name>
     <cornerRadius>0</cornerRadius>
-    <font name="JetBrainsMono" size="11"/>
+    <font name="DaddyTimeMono Nerd Font" size="12"/>
+    <dropShadows>yes</dropShadows>
+    <keepBorder>no</keepBorder>
   </theme>
   <keyboard>
     <default/>
@@ -22,8 +24,8 @@
     <keybind key="W-D">
       <action name="Execute" command="wofi --show drun"/>
     </keybind>
-        <keybind key="W-Q">
-      <action name="Execute" command="grim"/>
+    <keybind key="W-Q">
+      <action name="Execute" command="sh .screenshot"/>
     </keybind>
   </keyboard>
   <mouse>

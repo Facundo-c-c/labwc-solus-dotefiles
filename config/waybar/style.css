@@ -9,7 +9,9 @@ window#waybar{
   color: ghostwhite;
   background-color: #1D2021;
 }
-
+#custom-music.Playing,
+#custom-music.Paused,
+#custom-music.Stopped,
 #custom-logo,
 #network,
 #pulseaudio,
@@ -22,36 +24,20 @@ window#waybar{
   font-size: 12px;
   background-color: #303233;
   border-radius: 8px;
+  font-weight: bold;
 }
-
 #custom-logo{
   font-size: 25px;
+  font-weight: normal;
 }
- 
-#clock{
-  margin-right: 0px; 
+#custom-music.Playing{
 }
-#custom-music.Playing {
-    background: #303233;
-    animation: gradient_f 9s cubic-bezier(.72, .39, .21, 1) infinite;
-    font-weight: bold;
-    color: ghostwhite;
-    border-radius: 8px;
-    margin: 3px;
-    padding: 5px;
-    font-size: 12px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
-
 #custom-music.Paused,
-#custom-music.Stopped {
-    background: #303233;
-    margin: 3px;
-    padding: 5px;
-    font-size: 12px;
-    border-radius: 8px;
-    color: ghostwhite;
-    padding-top: 1px;
-    padding-bottom: 1px;
+#custom-music.Stopped{
+}
+#taskbar button.active{
+    opacity: 1;
+}
+#taskbar button{
+    opacity: 0.5;
 }

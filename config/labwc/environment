@@ -61,8 +61,8 @@
 ## then uncomment and adjust.
 ##
 
- XDG_CURRENT_DESKTOP=wlroots
-
+XDG_CURRENT_DESKTOP=wlroots
+QT_QPA_PLATFORMTHEME=qt6ct
 XCURSOR_THEME=Future-black-cursors
 XCURSOR_SIZE=24
 XKB_DEFAULT_LAYOUT=es
